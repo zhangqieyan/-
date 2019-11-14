@@ -1,0 +1,92 @@
+package xues;
+import java.util.*;
+import java.util.regex.*;
+public class Chg {
+
+	String d = "汉皇重色思倾国御宇多年求不得杨家有女初长成养在深闺人未识天生丽质难自弃一朝选在君王侧回眸一笑百媚生六宫粉黛无颜色春寒赐浴华清池温泉水滑洗凝脂侍儿扶起娇无力始是新承恩泽时云鬓花颜金步摇芙蓉帐暖度春宵春宵苦短日高起从此君王不早朝承欢侍宴无闲暇春从春游夜专夜后宫佳丽三千人三千宠爱在一身金屋妆成娇侍夜玉楼宴罢醉和春姊妹弟兄皆列士可怜光采生门户遂令天下父母心不重生男重生女骊宫高处入青云仙乐风飘处处闻缓歌慢舞凝丝竹尽日君王看不足渔阳鼙鼓动地来惊破霓裳羽衣曲九重城阙烟尘生千乘万骑西南行"; 
+			
+			 StringBuffer s = new StringBuffer(d);
+			 
+			 int g;
+			 int last = s.length();
+			
+			 
+			 public Chg(String j)
+			 {
+			  String c = j;
+			  for(int i = last - 7; i > 0; i-=7) 
+			  {
+			   if(i%14==0)
+			   {
+			    s.insert(i,'。');
+			    s.insert(i+1,'\n');
+			   }
+			   else s.insert(i,'，');
+			   }
+			  StringTokenizer a = new StringTokenizer(d,c);
+			  int number = a.countTokens();
+			  while(a.hasMoreTokens()) 
+			  {
+			   String k = a.nextToken();
+			      
+			  }
+			  if(c.equals("行"))
+			  {
+			   number = number;
+			  }
+			  else if(c.equals("汉")) 
+			  {
+			   number = number;
+			  }
+			  else 
+			  {
+			   number=number -1;
+			  }
+			   g = number;
+			 }
+			  
+			  
+			 public String toString() 
+			 {
+			   return s + "。" + '\n' +"所查字出现过："+g+"次。";
+			 }
+			}
+      package xues;
+
+public class TT  {
+	public static void main(String args[])throws Yc
+{Chg chg;
+String yh;
+yh="";                    
+
+ try
+ {   chg = new Chg(yh);
+	 if (yh.equals(""))
+	 {
+	 throw new Yc("不能输入空字符");
+	 }
+	 else                                              
+		 System.out.println(chg);
+	 }
+	 catch (Yc e)
+				{
+					e.printStackTrace();
+				}
+	 finally 
+		{
+			System.out.print("程序运行结束，谢谢使用");
+		}
+ 
+
+
+
+}}
+package xues;
+
+public class Yc extends Exception {
+	public Yc(String x) {
+		System.out.println(x);
+		
+	}
+
+}
