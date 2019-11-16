@@ -32,7 +32,7 @@
 首先创造一个Chg的类，首先建立String和Stringbuffer用来对字符串处理。运用insert和equal进行对字符串特定位置的添加标点符号。再用String Tokenizer字符分析器来进行对某个字符的查找。查找过程为，通过用户输入的字符来将字符串分段，运用countToken来进行对分段的计数。如果字符在中间的话那么有一个字符的话，计数就为2.这时减一即可。如果在开头和结尾的话，那么久通过if来确定用户输入的字符，如果是在开头和结尾，那么次数不减一。
 新建一个类来作为测试类。再建一个Yc的类来定义自己的异常，用来处理用户输入的空字符。
 
-## 四、流程图：[image text](https://github.com/zhangqieyan/-/blob/master/%E9%95%BF%E6%81%A8%E6%AD%8C.png)
+## 四、流程图：![image text](https://github.com/zhangqieyan/-/blob/master/%E9%95%BF%E6%81%A8%E6%AD%8C.png)
 
 ## 五、核心代码注释：
 int last = s.length();//last代表的是字符串s的长度
@@ -44,7 +44,7 @@ int last = s.length();//last代表的是字符串s的长度
     throw new Yc("不能输入空字符");//抛出异常不能输入空字符
     e.printStackTrace();//出现的异常
 
-## 六、运行截图 [image text](https://github.com/zhangqieyan/-/blob/master/1a3ecf31077006e4388eff0e01b01a0.png)
-[image text](https://github.com/zhangqieyan/-/blob/master/1eaa2bea26c4c50e3959ce4b4e7ea45.png)
+## 六、运行截图 ![image text](https://github.com/zhangqieyan/-/blob/master/1a3ecf31077006e4388eff0e01b01a0.png)
+![image text](https://github.com/zhangqieyan/-/blob/master/1eaa2bea26c4c50e3959ce4b4e7ea45.png)
 ## 七、编程感想：
 了解了处理字符串的方法和如何在字符串中进行查找字符。了解了自定义异常的处理。学习到了如何在书中寻找自己不会用的东西来学以致用。
