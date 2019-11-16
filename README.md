@@ -44,7 +44,8 @@ int last = s.length();//last代表的是字符串s的长度
     throw new Yc("不能输入空字符");//抛出异常不能输入空字符
     e.printStackTrace();//出现的异常
 
-## 六、运行截图 ![image text](https://github.com/zhangqieyan/-/blob/master/1a3ecf31077006e4388eff0e01b01a0.png)
+## 六、运行截图 
+![image text](https://github.com/zhangqieyan/-/blob/master/1a3ecf31077006e4388eff0e01b01a0.png)
 ![image text](https://github.com/zhangqieyan/-/blob/master/1eaa2bea26c4c50e3959ce4b4e7ea45.png)
 ## 七、编程感想：
 了解了处理字符串的方法和如何在字符串中进行查找字符。了解了自定义异常的处理。学习到了如何在书中寻找自己不会用的东西来学以致用。
